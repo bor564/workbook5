@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <main>
+        <section>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam quisquam inventore modi dolores in perspiciatis rem obcaecati, ullam eveniet voluptate. Doloribus, eum deleniti unde modi velit quasi nostrum veritatis, quibusdam perspiciatis suscipit a necessitatibus, reiciendis saepe nihil consequuntur qui in eaque quae placeat dignissimos animi?
+            </p>
+        </section>
+    </main>
+    <script>
+        function changeBackground(params) {
+
+            document.body.style.backgroundColor = "yellow"
+        }
+
+        setTimeout(changeBackground,3000);
+
+        console.log(window.document.location.hostname);
+        console.log(navigator.userAgent);
+        //alert("your computer is being attacked by a virus"click this link to get an antivirus)//
+        function openPage() {
+            window.open("https://www.netflix.com/browse")
+            
+        }
+    </script>
+</body>
+</html>
