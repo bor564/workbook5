@@ -53,9 +53,15 @@ function addImage() {
         imagesDiv.appendChild(image) 
     }        
     }
+function removeImages() {
+    imagesDiv.innerHTML="";
     
+}
 }
 
 addImageButton.onclick = addImage;
+clearImagesButton.onclick = removeImages;
+
+
 loadImageList();
 
